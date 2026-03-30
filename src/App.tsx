@@ -64,7 +64,7 @@ function App() {
         />
       </StatCardGrid>
 
-      <div style={{ marginTop: 'var(--space-80)', display: 'flex', flexDirection: 'column', gap: 'var(--grid-gutter)' }}>
+      <div className="stat-card-singles" style={{ marginTop: 'var(--space-80)' }}>
         <StatCardBigText
           title="Administrativ kostnadsprocent"
           description="Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat."

@@ -291,8 +291,10 @@
   flex-shrink: 0;
 }
 
-.stat-card--wide .stat-card__marquee-text {
-  font-size: clamp(5rem, 10vw, 9rem);
+@media (min-width: 768px) {
+  .stat-card--wide .stat-card__marquee-text {
+    font-size: clamp(5rem, 10vw, 9rem);
+  }
 }
 
 .stat-card--blue .stat-card__marquee-text    { color: var(--color-blue-300); }
@@ -398,7 +400,8 @@
 }
 
 /* ---- Card Grid ---- */
-.stat-card-grid {
+.stat-card-grid,
+.stat-card-singles {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--grid-gutter);
