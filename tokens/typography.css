@@ -1,0 +1,351 @@
+/* ============================================
+   Harmoni Design System — Typography Tokens
+   Generated from Figma Foundations file
+   Font: General Sans
+   ============================================ */
+
+:root {
+  /* ---- Font Family ---- */
+  --font-family: 'General Sans', sans-serif;
+
+  /* ---- Font Weights ---- */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* ---- Breakpoints ---- */
+  /* XS: <= 400px  |  SM: >= 400px  |  MD: >= 768px
+     LG: >= 992px  |  XL: >= 1200px |  XXL: >= 1440px */
+
+  /* Mobile-first base sizes (Mobile values) */
+  --font-size-h1: 40px;
+  --font-size-h2: 32px;
+  --font-size-h3: 28px;
+  --font-size-h4: 24px;
+  --font-size-preamble: 24px;
+  --font-size-body1: 20px;
+  --font-size-body2: 16px;
+  --font-size-body3: 16px;
+  --font-size-overline: 14px;
+  --font-size-input: 16px;
+  --font-size-quote-big: 28px;
+  --font-size-quote: 24px;
+
+  --line-height-h1: 48px;
+  --line-height-h2: 36px;
+  --line-height-h3: 34px;
+  --line-height-h4: 32px;
+  --line-height-preamble: 32px;
+  --line-height-body1: 28px;
+  --line-height-body2: 24px;
+  --line-height-body3: 24px;
+  --line-height-overline: 20px;
+  --line-height-input: 24px;
+  --line-height-quote-big: 34px;
+  --line-height-quote: 32px;
+
+  /* ---- Label Sizes (no responsive scaling) ---- */
+  --font-size-label1: 24px;
+  --line-height-label1: 24px;
+
+  --font-size-label2: 20px;
+  --line-height-label2: 24px;
+
+  --font-size-label3: 18px;
+  --line-height-label3: 24px;
+
+  --font-size-label4: 16px;
+  --line-height-label4: 18px;
+
+  --font-size-label5: 14px;
+  --line-height-label5: 20px;
+
+  /* ---- Button Sizes ---- */
+  --font-size-button-big: 20px;
+  --line-height-button-big: 24px;
+
+  --font-size-button-small: 16px;
+  --line-height-button-small: 18px;
+}
+
+/* ---- Tablet (MD: >= 768px) ---- */
+@media (min-width: 768px) {
+  :root {
+    --font-size-h1: 48px;
+    --font-size-h2: 40px;
+    --font-size-h3: 32px;
+    --font-size-h4: 24px;
+    --font-size-preamble: 24px;
+    --font-size-body1: 20px;
+    --font-size-body2: 16px;
+    --font-size-body3: 16px;
+    --font-size-overline: 14px;
+    --font-size-input: 16px;
+    --font-size-quote-big: 32px;
+    --font-size-quote: 24px;
+
+    --line-height-h1: 56px;
+    --line-height-h2: 48px;
+    --line-height-h3: 40px;
+    --line-height-h4: 32px;
+    --line-height-preamble: 32px;
+    --line-height-body1: 28px;
+    --line-height-body2: 24px;
+    --line-height-body3: 24px;
+    --line-height-overline: 20px;
+    --line-height-input: 24px;
+    --line-height-quote-big: 40px;
+    --line-height-quote: 32px;
+  }
+}
+
+/* ---- Desktop (XL: >= 1200px) ---- */
+@media (min-width: 1200px) {
+  :root {
+    --font-size-h1: 64px;
+    --font-size-h2: 56px;
+    --font-size-h3: 48px;
+    --font-size-h4: 32px;
+    --font-size-preamble: 32px;
+    --font-size-body1: 24px;
+    --font-size-body2: 20px;
+    --font-size-body3: 16px;
+    --font-size-overline: 16px;
+    --font-size-input: 18px;
+    --font-size-quote-big: 48px;
+    --font-size-quote: 32px;
+
+    --line-height-h1: 68px;
+    --line-height-h2: 62px;
+    --line-height-h3: 56px;
+    --line-height-h4: 44px;
+    --line-height-preamble: 44px;
+    --line-height-body1: 36px;
+    --line-height-body2: 32px;
+    --line-height-body3: 24px;
+    --line-height-overline: 24px;
+    --line-height-input: 24px;
+    --line-height-quote-big: 56px;
+    --line-height-quote: 44px;
+  }
+}
+
+/* ============================================
+   Typography Utility Classes
+   ============================================ */
+
+.h1 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.h2 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.h3 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.h4 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.preamble {
+  font-family: var(--font-family);
+  font-size: var(--font-size-preamble);
+  line-height: var(--line-height-preamble);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+.body1 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body1);
+  line-height: var(--line-height-body1);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+.body1-bold {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body1);
+  line-height: var(--line-height-body1);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.body2 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body2);
+  line-height: var(--line-height-body2);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+.body2-bold {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body2);
+  line-height: var(--line-height-body2);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.body3 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body3);
+  line-height: var(--line-height-body3);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+.body3-bold {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body3);
+  line-height: var(--line-height-body3);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0;
+}
+
+.overline {
+  font-family: var(--font-family);
+  font-size: var(--font-size-overline);
+  line-height: var(--line-height-overline);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.quote-big {
+  font-family: var(--font-family);
+  font-size: var(--font-size-quote-big);
+  line-height: var(--line-height-quote-big);
+  font-weight: var(--font-weight-regular);
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+.quote {
+  font-family: var(--font-family);
+  font-size: var(--font-size-quote);
+  line-height: var(--line-height-quote);
+  font-weight: var(--font-weight-regular);
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+.input-text {
+  font-family: var(--font-family);
+  font-size: var(--font-size-input);
+  line-height: var(--line-height-input);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0;
+}
+
+/* ---- Labels ---- */
+.label1 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label1);
+  line-height: var(--line-height-label1);
+  font-weight: var(--font-weight-medium);
+}
+
+.label1-bold {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label1);
+  line-height: var(--line-height-label1);
+  font-weight: var(--font-weight-semibold);
+}
+
+.label1-thin {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label1);
+  line-height: var(--line-height-label1);
+  font-weight: var(--font-weight-regular);
+}
+
+.label2 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label2);
+  line-height: var(--line-height-label2);
+  font-weight: var(--font-weight-medium);
+}
+
+.label2-thin {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label2);
+  line-height: var(--line-height-label2);
+  font-weight: var(--font-weight-regular);
+}
+
+.label3 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label3);
+  line-height: var(--line-height-label3);
+  font-weight: var(--font-weight-medium);
+}
+
+.label3-thin {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label3);
+  line-height: var(--line-height-label3);
+  font-weight: var(--font-weight-regular);
+}
+
+.label4 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label4);
+  line-height: var(--line-height-label4);
+  font-weight: var(--font-weight-medium);
+}
+
+.label4-thin {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label4);
+  line-height: var(--line-height-label4);
+  font-weight: var(--font-weight-regular);
+}
+
+.label5 {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label5);
+  line-height: var(--line-height-label5);
+  font-weight: var(--font-weight-medium);
+}
+
+.label5-thin {
+  font-family: var(--font-family);
+  font-size: var(--font-size-label5);
+  line-height: var(--line-height-label5);
+  font-weight: var(--font-weight-regular);
+}
+
+/* ---- Buttons ---- */
+.button-big {
+  font-family: var(--font-family);
+  font-size: var(--font-size-button-big);
+  line-height: var(--line-height-button-big);
+  font-weight: var(--font-weight-medium);
+}
+
+.button-small {
+  font-family: var(--font-family);
+  font-size: var(--font-size-button-small);
+  line-height: var(--line-height-button-small);
+  font-weight: var(--font-weight-medium);
+}

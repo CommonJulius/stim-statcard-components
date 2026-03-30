@@ -1,0 +1,25 @@
+/* ============================================
+   Harmoni Design System — Motion Tokens
+   Generated from Figma Foundations file
+   ============================================ */
+
+:root {
+  /* ---- Easings ---- */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.1, 0.7, 0.6, 1);
+  --ease-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --ease-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --ease-linear: linear;
+
+  /* ---- Durations ---- */
+  --duration-fast: 0.05s;
+  --duration-fast-1: 0.1s;
+  --duration-fast-2: 0.15s;
+  --duration-medium: 0.2s;
+  --duration-medium-1: 0.25s;
+  --duration-medium-2: 0.3s;
+  --duration-medium-3: 0.35s;
+  --duration-slow: 0.4s;
+  --duration-slow-1: 0.45s;
+  --duration-slow-2: 0.6s;
+}

@@ -1,0 +1,22 @@
+/* ============================================
+   Harmoni Design System — Breakpoints
+   Generated from Figma Foundations file
+   ============================================ */
+
+:root {
+  --breakpoint-xs: 400px;   /* <= 400px */
+  --breakpoint-sm: 400px;   /* >= 400px */
+  --breakpoint-md: 768px;   /* >= 768px */
+  --breakpoint-lg: 992px;   /* >= 992px */
+  --breakpoint-xl: 1200px;  /* >= 1200px */
+  --breakpoint-xxl: 1440px; /* >= 1440px */
+}
+
+/*
+  Usage with media queries:
+  @media (min-width: 400px)  { ... }  SM
+  @media (min-width: 768px)  { ... }  MD
+  @media (min-width: 992px)  { ... }  LG
+  @media (min-width: 1200px) { ... }  XL
+  @media (min-width: 1440px) { ... }  XXL
+*/

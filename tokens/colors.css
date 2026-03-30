@@ -1,0 +1,91 @@
+/* ============================================
+   Harmoni Design System — Color Tokens
+   Generated from Figma Foundations file
+   ============================================ */
+
+:root {
+  /* ---- Primitives: Black & White ---- */
+  --color-black: #232323;
+  --color-white: #ffffff;
+
+  /* ---- Primitives: Purple ---- */
+  --color-purple-600: #1d0834;
+  --color-purple-500: #250a43;
+  --color-purple-400: #6e36ff;
+  --color-purple-300: #a9a0e1;
+  --color-purple-200: #ccc5f7;
+  --color-purple-accent: #dedbfb;
+  --color-purple-100: #e8e6fb;
+  --color-purple-50: #f7f6ff;
+
+  /* ---- Primitives: Green ---- */
+  --color-green-600: #002319;
+  --color-green-500: #004631;
+  --color-green-400: #2bb88f;
+  --color-green-300: #9eccbc;
+  --color-green-200: #cbe4da;
+  --color-green-accent: #dbeee9;
+  --color-green-100: #eaf6f3;
+  --color-green-50: #f4faf8;
+
+  /* ---- Primitives: Blue ---- */
+  --color-blue-600: #050038;
+  --color-blue-500: #082c62;
+  --color-blue-400: #2d8cfe;
+  --color-blue-300: #8ca7ea;
+  --color-blue-200: #cbd7f7;
+  --color-blue-accent: #dee6ff;
+  --color-blue-100: #eaefff;
+  --color-blue-50: #f4f7ff;
+
+  /* ---- Primitives: Orange ---- */
+  --color-orange-600: #281402;
+  --color-orange-500: #452531;
+  --color-orange-400: #eb7f1f;
+  --color-orange-300: #f8a26f;
+  --color-orange-200: #ffc29f;
+  --color-orange-accent: #f7e1cf;
+  --color-orange-100: #fdebdc;
+  --color-orange-50: #fff7f1;
+
+  /* ---- Primitives: Grey ---- */
+  --color-grey-600: #474443;
+  --color-grey-500: #746d6a;
+  --color-grey-400: #b6b0ad;
+  --color-grey-300: #ddd6d4;
+  --color-grey-200: #e8e3e1;
+  --color-grey-accent: #ebe5e4;
+  --color-grey-100: #f3efee;
+  --color-grey-50: #faf8f8;
+
+  /* ---- Status ---- */
+  --color-status-red: #d72e17;
+  --color-status-red-bg: #fff0f2;
+  --color-status-yellow: #ecb935;
+  --color-status-yellow-bg: #fff4d9;
+  --color-status-green: #12b064;
+  --color-status-blue: #2272d2;
+
+  /* ---- Hover States ---- */
+  --color-hover-purple: #5314f5;
+  --color-hover-blue-100: #e0e6fa;
+  --color-hover-black: #000000;
+  --color-hover-red: #c71a03;
+
+  /* ---- Inactive States: Grey ---- */
+  --color-inactive-g-300: #5a5a5a;
+  --color-inactive-g-200: #9c9c9c;
+  --color-inactive-g-100: #cdcdcd;
+
+  /* ---- Inactive States: Purple ---- */
+  --color-inactive-p-200: #d8d4f1;
+  --color-inactive-p-100: #f3f2fb;
+
+  /* ---- Inactive States: Red ---- */
+  --color-inactive-r-200: #f1c6c0;
+  --color-inactive-r-100: #fef4f2;
+
+  /* ---- Semantic Aliases ---- */
+  --color-text-black: var(--color-black);
+  --color-background: var(--color-white);
+}

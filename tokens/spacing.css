@@ -1,0 +1,75 @@
+/* ============================================
+   Harmoni Design System — Spacing Tokens
+   Generated from Figma Foundations file
+   ============================================ */
+
+:root {
+  /* ---- Spacing Scale (Values) ---- */
+  --space-0: 0px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-120: 120px;
+  --space-200: 200px;
+
+  /* ---- Grid System (responsive) ---- */
+  --grid-columns: 8;
+  --grid-margin: 0px;
+  --grid-gutter: 4px;
+
+  /* ---- Outer Spacing (responsive) ---- */
+  /* Horizontal default */
+  --outer-x-default: 16px;
+  --outer-x-big: 16px;
+  /* Vertical default */
+  --outer-y-default: 40px;
+  --outer-y-small: 16px;
+
+  /* ---- Inner Spacing (responsive) ---- */
+  --inner-x-default: 16px;
+
+  /* ---- Rounded Radius ---- */
+  --radius-none: 0px;
+  --radius-small: 4px;
+  --radius-standard: 6px;
+  --radius-rounded: 500px;
+}
+
+/* ---- Tablet (MD: >= 768px) ---- */
+@media (min-width: 768px) {
+  :root {
+    --grid-columns: 12;
+    --grid-margin: 16px;
+    --grid-gutter: 8px;
+    --outer-x-default: 16px;
+    --outer-x-big: 40px;
+    --outer-y-default: 64px;
+    --outer-y-small: 16px;
+    --inner-x-default: 24px;
+  }
+}
+
+/* ---- Desktop (XL: >= 1200px) ---- */
+@media (min-width: 1200px) {
+  :root {
+    --grid-columns: 12;
+    --grid-margin: 24px;
+    --grid-gutter: 16px;
+    --outer-x-default: 24px;
+    --outer-x-big: 72px;
+    --outer-y-default: 80px;
+    --outer-y-small: 24px;
+    --inner-x-default: 48px;
+  }
+}
